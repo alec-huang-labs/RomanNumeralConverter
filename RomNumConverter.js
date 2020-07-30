@@ -8,9 +8,10 @@ function convertToRoman(num) {
         finalArr.push(targetRom);
         num = num - decimalArr[targetNumIndex];
     }
+    console.log(finalArr.join('');
     return finalArr.join('');
 }
 
-console.log(convertToRoman(83));
-console.log(convertToRoman(3999));
-console.log(convertToRoman(798));
+convertToRoman(83);
+convertToRoman(3999);
+convertToRoman(798);
